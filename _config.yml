@@ -49,9 +49,10 @@ defaults:
     values:
       image: "/images/banner.jpeg"
 
-# ─── Webmaster Verification (add your codes here after verifying) ─────────────
-# google_site_verification: "YOUR_GOOGLE_VERIFICATION_CODE"
-# bing_site_verification:   "YOUR_BING_VERIFICATION_CODE"
+# ─── Webmaster Verification ───────────────────────────────────────────────────
+google_site_verification: "google56c8b7dc8a746c38"
+# bing_site_verification: "YOUR_BING_VERIFICATION_CODE"
+
 
 # ─── Exclude from build ───────────────────────────────────────────────────────
 exclude:
