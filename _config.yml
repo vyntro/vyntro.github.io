@@ -1,10 +1,63 @@
-title: Vyntro
-description: AI-powered client onboarding, project scoping, and SaaS automation.
-theme: minima
+# ─── Site Identity ────────────────────────────────────────────────────────────
+title: "Vyntro — AI Client Onboarding & Project Scoping Software"
+tagline: "Automate proposals, portals, and project delivery in seconds."
+description: >
+  Vyntro is AI-powered client onboarding and project scoping software for
+  agencies, freelancers, and software studios. Generate proposals, build WBS
+  task lists, prevent scope creep, and manage clients in a white-label portal —
+  all in one platform.
 
+# ─── URLs ─────────────────────────────────────────────────────────────────────
+url: "https://vyntro.github.io"
+baseurl: ""
+
+# ─── Author ───────────────────────────────────────────────────────────────────
 author:
-  name: Vyntro
-  email: hello@vyntro.cloud
+  name: "Vyntro"
+  email: "hello@vyntro.cloud"
+  url: "https://www.vyntro.cloud"
 
-url: https://yourusername.github.io
+# ─── Theme ────────────────────────────────────────────────────────────────────
+theme: minima
 header_pages: []
+
+# ─── Plugins (all GitHub Pages whitelisted) ───────────────────────────────────
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# ─── SEO Tag Settings ─────────────────────────────────────────────────────────
+# Used by jekyll-seo-tag to populate <meta>, Open Graph, and Twitter cards
+logo: "/images/logo.svg"
+
+social:
+  name: Vyntro
+  links:
+    - https://www.vyntro.cloud
+    - https://twitter.com/vyntrocloud
+    - https://www.linkedin.com/company/vyntrocloud/
+
+twitter:
+  username: vyntrocloud
+  card: summary_large_image
+
+# ─── Open Graph / Default Image ───────────────────────────────────────────────
+# Shown when the page is shared on social media
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/images/banner.jpeg"
+
+# ─── Webmaster Verification (add your codes here after verifying) ─────────────
+# google_site_verification: "YOUR_GOOGLE_VERIFICATION_CODE"
+# bing_site_verification:   "YOUR_BING_VERIFICATION_CODE"
+
+# ─── Exclude from build ───────────────────────────────────────────────────────
+exclude:
+  - README.md
+  - keywords.md
+  - "*.csv"
+  - "*.txt"
+  - Gemfile
+  - Gemfile.lock

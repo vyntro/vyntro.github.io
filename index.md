@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Vyntro — AI Client Onboarding & Project Scoping Software for Agencies"
+description: "Vyntro automates client onboarding, AI proposal generation, work breakdown structure planning, scope creep prevention, and white-label client portals for agencies and freelancers. Try free at vyntro.cloud."
+image: "/images/banner.jpeg"
+canonical_url: "https://vyntro.github.io/"
+---
+
 <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; border-bottom: 1px solid #333; margin-bottom: 2rem;">
   <div style="display: flex; align-items: center; gap: 0.75rem;">
     <img src="images/logo.svg" alt="Vyntro Logo" width="40" height="40" style="border-radius: 8px;">
@@ -7,6 +15,7 @@
     <a href="https://www.vyntro.cloud" target="_blank" rel="noopener" style="background: linear-gradient(135deg, #6366f1, #06b6d4); color: #ffffff; padding: 0.6rem 1.2rem; border-radius: 8px; font-weight: 600; text-decoration: none;">Visit Website &rarr;</a>
   </div>
 </div>
+
 
 # Vyntro
 
