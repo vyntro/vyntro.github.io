@@ -24,7 +24,7 @@ header_pages: []
 # ─── Plugins (all GitHub Pages whitelisted) ───────────────────────────────────
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
+
 
 # ─── SEO Tag Settings ─────────────────────────────────────────────────────────
 # Used by jekyll-seo-tag to populate <meta>, Open Graph, and Twitter cards
